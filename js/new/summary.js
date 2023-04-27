@@ -10,16 +10,16 @@ let wid = 0;
 let canvaWidth = 0;
 let beg = 0;
 function preload() {
-  data = loadTable("data/bully.csv", "csv", "header");
-  Frank = loadFont("lib/FRAHV.TTF");
-  Image1 = loadImage("lib/1.png");
-  Image2 = loadImage("lib/2.png");
-  Image3 = loadImage("lib/3.png");
-  Image4 = loadImage("lib/4.png");
-  Image5 = loadImage("lib/5.png");
-  Image6 = loadImage("lib/6.png");
-  Image7 = loadImage("lib/7.png");
-  font2 = loadFont("lib/Yu Gothic Light.ttf");
+  data = loadTable("../data/bully.csv", "csv", "header");
+  Frank = loadFont("../lib/FRAHV.TTF");
+  Image1 = loadImage("../lib/1.png");
+  Image2 = loadImage("../lib/2.png");
+  Image3 = loadImage("../lib/3.png");
+  Image4 = loadImage("../lib/4.png");
+  Image5 = loadImage("../lib/5.png");
+  Image6 = loadImage("../lib/6.png");
+  Image7 = loadImage("../lib/7.png");
+  font2 = loadFont("../lib/Yu Gothic Light.ttf");
 }
 function setup() {
   rs = data.getRows();
@@ -224,7 +224,7 @@ function draw() {
     button.attr("class", "back");
     $("body").append(button);
     $(".back").click(function () {
-      window.location.href = "introduction.html";
+      window.location.href = "../introduction.html";
     });
   } else {
     $(".back").remove();

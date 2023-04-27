@@ -913,7 +913,7 @@ function draw() {
       $("body").append(button);
     }
     $(".load").click(function () {
-      window.location.href = "summary.html";
+      window.location.href = "html/summary.html";
     });
   }
   pop();

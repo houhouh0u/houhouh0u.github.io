@@ -13,9 +13,9 @@ let top_margin
 let bottom_margin
 let mip = false
 function preload() {
-    data = loadTable("data/bully.csv", "csv", "header");
-    pic = loadImage('lib/text.png')
-    font1 = loadFont('lib/HTOWERT.TTF')
+    data = loadTable("../data/bully.csv", "csv", "header");
+    pic = loadImage('../lib/text.png')
+    font1 = loadFont('../lib/HTOWERT.TTF')
 }
 function setup() {
     rs = data.getRows();
