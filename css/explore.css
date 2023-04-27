@@ -1,0 +1,26 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+
+    /* overflow: hidden; */
+
+}
+
+.pages_container {
+    display: flex;
+    justify-content: center;
+    margin: 0  auto;
+    background: #000;
+}
+
+.back {
+    position: fixed;
+    margin: 0  auto;
+    left: 50%;
+    top: 6%;
+    background-color: transparent;
+    stroke-width: 0;
+    opacity: 0;
+    /* border: 0; */
+    transform: scale(12);
+}
